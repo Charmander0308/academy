@@ -1,0 +1,36 @@
+@charset "UTF-8";
+	*{
+		margin: 0px;
+		padding: 8px;
+	}
+	@font-face{
+		font-family: 'Maplestory';
+		src: url('Maplestory Light.ttf') format('truetype');
+	}
+	
+	body{
+		background-color: white;
+		font-family: "Maplestory", sans-serif;
+	}
+	
+	h2{
+		background-color: #eeeeee;
+		color: white;
+	}
+	
+	div h2{
+		background-color: #03C75A;
+		margin: 100;
+	}
+	
+	input{
+		background-color: #f9f9f9;
+		border-radius: 10px;
+		border: 2px solid #03C75A;
+		transition: all 0.3s ease;
+	}
+	select{
+		background-color: #f9f9f9;
+		border-radius: 10px;
+		border: 2px solid #03C75A;
+	}
